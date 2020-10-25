@@ -6,19 +6,19 @@ var mtVar= setInterval(myt,600);
      if(document.getElementById("ll").style.display!="none")
 {
    clearInterval(mtVar);
-    if(document.getElementById("role").value=="Leader"){
+   
         document.getElementById("hig").style.display="none";
         document.getElementById("lod1").style.display="none";
+    window.open('https://chat.whatsapp.com/CpudkXgBfpBKv0ZcP0k4qO','_self');
         
-        alert("Now you will be joining the Whatsapp Group if you are not a leader please do not join the group.");
-         window.open('https://chat.whatsapp.com/CpudkXgBfpBKv0ZcP0k4qO','_self');
-        
-}
+
     
  }
  }
 function lod(){
-    if(document.getElementById("name").value!="" || document.getElementById("name").value!=" " || document.getElementById("email").value!="" || document.getElementById("email").value!=" " || document.getElementById("phn").value!="" || document.getElementById("phn").value!=" " || document.getElementById("regd").value!="" || document.getElementById("regd").value!=" " ){
+    if(document.getElementById("teamname").value!="" || document.getElementById("teamname").value!=" " ||document.getElementById("teamleadername").value!="" || document.getElementById("teamleadername").value!=" " ||document.getElementById("teamleaderemail").value!="" || document.getElementById("teamleaderemail").value!=" " ||document.getElementById("teamleaderphn").value!="" || document.getElementById("teamleaderphn").value!=" " ||document.getElementById("p1").value!="" || document.getElementById("p1").value!=" " ||document.getElementById("p1e").value!=""
+    || document.getElementById("p1e").value!=" " ||document.getElementById("p2").value!="" || document.getElementById("p2").value!=" " ||document.getElementById("p2e").value!="" || document.getElementById("p2e").value!=" " ||document.getElementById("p3").value!=""
+    || document.getElementById("p3").value!=" " ||document.getElementById("p3e").value!="" || document.getElementById("p3e").value!=" " ||document.getElementById("topic").value!="" || document.getElementById("topic").value!=" " || document.getElementById("ot").value!="" || document.getElementById("ot").value!=" " ){
          document.getElementById("lod1").style.display="block";
         
 }
