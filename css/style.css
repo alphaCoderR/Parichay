@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -6,7 +5,7 @@
 body {
   background: #fafcef;
   color: #2f3138;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 a {
@@ -60,6 +59,7 @@ h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -67,14 +67,16 @@ h6 {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-  background:green;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background: green;
 }
+
 /* Back to top button */
-::selection{
-background:green;
-color:white;
+::selection {
+  background: green;
+  color: white;
 }
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -219,12 +221,12 @@ color:white;
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -266,9 +268,9 @@ color:white;
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding:  8px ;
-  margin-top:-50px;
-  
+  padding: 8px;
+  margin-top: -50px;
+
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
@@ -283,11 +285,11 @@ color:white;
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -300,15 +302,15 @@ color:white;
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
 
 .nav-menu li.buy-tickets a {
   color: whitesmoke;
-  background:green;
+  background: green;
   padding: 7px 22px;
   border: 2px solid green;
   transition: all ease-in-out 0.3s;
@@ -352,7 +354,7 @@ color:white;
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #f82249;
   color: #fff;
 }
@@ -379,7 +381,7 @@ color:white;
 }
 
 #mobile-nav-toggle i {
-  color: green;
+  color: #402e2a;
 }
 
 /* Mobile Nav Styling */
@@ -405,7 +407,7 @@ color:white;
 
 #mobile-nav ul li {
   position: relative;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
 #mobile-nav ul li a {
@@ -419,12 +421,12 @@ color:white;
   display: block;
   outline: none;
   text-align: center;
-  border:2px solid transparent ;
+  border: 2px solid transparent;
 }
 
 #mobile-nav ul li a:hover {
   border-color: rgba(0, 128, 0, 0.6);
-  background-color:rgba(0, 128, 0, 0.6) ;
+  background-color: rgba(0, 128, 0, 0.6);
   color: whitesmoke;
 }
 
@@ -481,11 +483,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(115, 218, 115, 0.5),rgba(115, 218, 115, 0.5)), url(../img/intro-bg.jpg) top center;
+  background: linear-gradient(rgba(115, 218, 115, 0.5), rgba(115, 218, 115, 0.5)), url(../img/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:480px) {
+  #intro {
+    height: 100vh;
+    background: linear-gradient(rgba(115, 218, 115, 0.3), rgba(115, 218, 115, 0.3)), url(../img/Screenshot_2020-10-25-22-04-42-69.jpg);
+    background-size: cover;
+  }
 }
 
 #intro:before {
@@ -668,7 +678,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  
+
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -711,7 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule {
   padding: 60px 0 60px 0;
-  background:#fafcef;
+  background: #fafcef;
 }
 
 #schedule .nav-tabs {
@@ -720,7 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   border-bottom: 0;
   margin-bottom: 30px;
-  
+
 }
 
 #schedule .nav-tabs li {
@@ -732,15 +742,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   font-weight: 600;
   background-color: rgba(212, 211, 211, 0.856);
-  color:rgba(0, 0, 0, 0.863);
+  color: rgba(0, 0, 0, 0.863);
   padding: 10px 100px;
-  margin-bottom:10px;
-  margin-right:5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 #schedule .nav-tabs a.active {
-  
-  border-bottom-color:green ;
+
+  border-bottom-color: green;
   color: green;
 }
 
@@ -814,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters {
   padding: 60px 0;
-  background:rgba(128, 128, 128, 0.1);
+  background: rgba(128, 128, 128, 0.1);
 }
 
 #supporters .supporters-wrap {
@@ -966,7 +976,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1009,7 +1019,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color:green;
+  background-color: green;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1122,13 +1132,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background:green;
-font-size: 20px;
+  background: green;
+  font-size: 20px;
   padding: 10px 40px;
   color: #fff;
   transition: 0.4s;
-letter-spacing: 1px;
-font-weight: 500;
+  letter-spacing: 1px;
+  font-weight: 500;
   cursor: pointer;
   border: 2px solid green;
 }
@@ -1289,6 +1299,10 @@ font-weight: 500;
   color: #ddd;
 }
 
+.fa-hand-point-right {
+  font-size: 2.2em;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1300,6 +1314,7 @@ font-weight: 500;
 }
 
 @media (min-width: 768px) {
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1405,6 +1420,14 @@ font-weight: 500;
   #schedule .nav-tabs a {
     padding: 8px 30px;
   }
+
+  #schedule .schedule-item h4 {
+    font-size: 15px;
+  }
+
+  .fa-hand-point-right {
+    display: none;
+  }
 }
 
 @media (max-width: 460px) {
@@ -1412,10 +1435,4 @@ font-weight: 500;
     margin-top: 10px;
   }
 
-}
-@media only screen and (max-width: 600px) {
-  .fa-hand-point-right{
-display:none;
-  }
-  
 }
