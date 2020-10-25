@@ -1135,7 +1135,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: green;
   font-size: 20px;
   padding: 10px 40px;
-  color: #fff;
+  color: black;
   transition: 0.4s;
   letter-spacing: 1px;
   font-weight: 500;
