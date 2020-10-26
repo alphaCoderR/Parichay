@@ -12,7 +12,6 @@ https://github.com/patelaryan7751
 
 
 
-Theme Name: TheEvent
-Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Event Name : Parichay
+URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+
