@@ -13,5 +13,5 @@ https://github.com/patelaryan7751
 
 
 Event Name : Parichay
-URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+URL: https://iic-vssut.org/Parichay/
 
